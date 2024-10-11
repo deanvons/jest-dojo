@@ -20,8 +20,8 @@ npm -D install @babel/core@7.22 @babel/preset-env@7.22
 
 ## Usage
 
-1. Open index.html in live server
-2. Write unit tests in Jest for the practice test cases below (requires localStorage mock)
+1. Open index.html in live server (to see how the website works)
+2. Write unit tests in Jest for the practice test cases below (requires localStorage mock for most test)
 3. Make sure all tests pass and work correctly
 
 ## Practice test cases
