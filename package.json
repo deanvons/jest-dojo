@@ -3,8 +3,12 @@
   "version": "1.0.0",
   "description": "- **Requirement 1**: Test that a new task is added to the list with the correct description and completion status (`completed: false`).\r - **Requirement 2**: Test that the task list is saved to `localStorage` after adding a task.",
   "main": "src/js/app.js",
-  "scripts": {
-  },
+  "scripts": {"test":"jest"},
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "7.22",
+    "@babel/preset-env": "7.22",
+    "jest": "^29.7.0"
+  }
 }
