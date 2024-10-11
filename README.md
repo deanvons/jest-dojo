@@ -26,6 +26,15 @@ Add the content below
 }
 ```
 
+Add this to your npm scripts in package.json
+```json
+"test":"jest"
+```
+Run this command to run the tests
+```bash
+npm run test
+```
+
 ## Usage
 
 1. Open index.html in live server (to see how the website works)
