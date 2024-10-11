@@ -10,12 +10,20 @@ Setup Jest for testing
 
 Install jest
 ```bash
-npm install jest
+npm -D install jest
 ```
 
 Install Babel core and preset-end v.22 - this allows you to use import syntax to access the taskManager functions you need to test
 ```bash
 npm -D install @babel/core@7.22 @babel/preset-env@7.22
+```
+
+Add a file called `babel.config.json` to your root directory
+Add the content below
+```json
+{
+  "presets": [["@babel/preset-env", { "targets": { "node": "current" } }]]
+}
 ```
 
 ## Usage
