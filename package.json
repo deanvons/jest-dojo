@@ -1,0 +1,10 @@
+{
+  "name": "jest-dojo",
+  "version": "1.0.0",
+  "description": "- **Requirement 1**: Test that a new task is added to the list with the correct description and completion status (`completed: false`).\r - **Requirement 2**: Test that the task list is saved to `localStorage` after adding a task.",
+  "main": "src/js/app.js",
+  "scripts": {
+  },
+  "author": "",
+  "license": "ISC"
+}
